@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>МФО</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css"/>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="submenu_bg"></div>
+    <div class="submenu_img">
+      <img src="img/submenu_img.svg" alt="">
+    </div>
+    <div class="inner_wrapper">
+      <img class="logo" loading="lazy" src="img/logo.png" alt="">
+      <div class="header_burger">
+        <span></span>
+      </div>
+      <nav class="menu">
+          <ul class="menu_list">
+            <li class="menu_item"><a href="">Вклады</a></li>
+            <li class="menu_item" id="submenu">
+              <a href="">Займы</a>
+              <div class="submenu">
+                <ul class="submenu_list">
+                  <li class="submenu_item"><a href="#">Наличными</a></li>
+                  <li class="submenu_item"><a href="#">На карту</a></li>
+                  <li class="submenu_item"><a href="#">Онлайн</a></li>
+                  <li class="submenu_item"><a href="#">Без проверок</a></li>
+                  <li class="submenu_item"><a href="#">Без наценок</a></li>
+                  <li class="submenu_item"><a href="#">Мгновенные</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu_item"><a href="">Кредиты</a></li>
+            <li class="menu_item"><a href="">Карты</a></li>
+            <li class="menu_item"><a href="">Страхование</a></li>
+            <li class="menu_item" id="submenu">
+              <a href="">Ипотека</a>
+              <div class="submenu">
+                <ul class="submenu_list">
+                  <li class="submenu_item"><a href="#">Наличными</a></li>
+                  <li class="submenu_item"><a href="#">На карту</a></li>
+                  <li class="submenu_item"><a href="#">Онлайн</a></li>
+                  <li class="submenu_item"><a href="#">Без проверок</a></li>
+                  <li class="submenu_item"><a href="#">Без наценок</a></li>
+                  <li class="submenu_item"><a href="#">Мгновенные</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu_item"><a href="">Рейтинги</a></li>
+            <li class="menu_item"><a href="">Полезное</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <div class="banner">
+    <div class="inner_wrapper">
+      <div class="banner_img">
+        <img src="img/banner.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <div class="categories">
+    <div class="inner_wrapper">
+      <div class="categories_block">
+        <div class="categories_item img1"><a href="#">Кредиты</a></div>
+        <div class="categories_item img2"><a href="#">Займы</a></div>
+        <div class="categories_item img3"><a href="#">Карты</a></div>
+        <div class="categories_item img4"><a href="#">Страхование</a></div>
+        <div class="categories_item img5"><a href="#">Вклады</a></div>
+        <div class="categories_item img6"><a href="#">Ипотека</a></div>
+      </div>
+      <div class="more_categories">
+        <a href="#" class="more_categories">Все категории</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- OFFERS -->
+  <div class="offers">
+    <div class="offers_wrapper">
+      <h1 class="offers_title">Лучшие предложения месяца</h1>
+      <div class="offers_categories offers_pagination">
+        <!-- <div class="offers_categories-item">кредиты</div>
+        <div class="offers_categories-item">займы</div>
+        <div class="offers_categories-item">кредитные карты</div>
+        <div class="offers_categories-item">страхование</div>
+        <div class="offers_categories-item">ипотека</div>
+        <div class="offers_categories-item">вклады</div> -->
+      </div>
+      <div class="swiper offers-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <!-- <div class="offers_categories-item">кредиты</div> -->
+            <div class="offers-slide-wrapper">
+              <div class="offers-block">
+                <div class="offers-item">
+                  <img src="img/offer1.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer2.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer3.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer4.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="offers-slide-wrapper">
+              <div class="offers-block">
+                <div class="offers-item">
+                  <img  src="img/offer1.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer2.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer3.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer4.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="offers-slide-wrapper">
+              <div class="offers-block">
+                <div class="offers-item">
+                  <img src="img/offer1.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer2.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer3.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer4.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="offers-slide-wrapper">
+              <div class="offers-block">
+                <div class="offers-item">
+                  <img src="img/offer1.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer2.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer3.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer4.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="offers-slide-wrapper">
+              <div class="offers-block">
+                <div class="offers-item">
+                  <img src="img/offer1.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer2.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer3.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer4.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="offers-slide-wrapper">
+              <div class="offers-block">
+                <div class="offers-item">
+                  <img src="img/offer1.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer2.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer3.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+                <div class="offers-item">
+                  <img src="img/offer4.png" alt="">
+                  <div class="procent">от 5.5 до 9.5%</div>
+                  <div class="summ">от 15 тыс. до 3 млн</div>
+                  <div class="period-wrapper">
+                    <div class="period">от 13 до 60 мес.</div>
+                    <div class="offer_send"><a href="#popup">Подать заявку</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="offers-scrollbar">
+        </div>
+      </div>
+      <div class="more_offers">
+        <a href="#" class="more">Все предложения</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXCHANGE RATE -->
+  <div class="exchange-rate">
+    <div class="inner_wrapper">
+      <h1 class="exchange-rate_title">Курс валют</h1>
+      <div class="exchange-rate_block">
+        <div class="exchange-rate-item">
+          <div class="first_currency">
+            
+            <div class="currency">
+              <div class="currency_name">USD</div>
+              <div class="currency_value">73.8</div>
+              <div class="currency_value">72.91</div>
+            </div>
+            <div class="selling_buying">
+              <div class="selling">Продажа</div>
+              <div class="buying">Покупка</div>
+            </div>
+          </div>
+          <div class="second_currency">
+            
+            <div class="currency">
+              <div class="currency_name">EUR</div>
+              <div class="currency_value">90</div>
+              <div class="currency_value">77.24</div>
+            </div>
+            <div class="selling_buying">
+              <div class="selling">Продажа</div>
+              <div class="buying">Покупка</div>
+            </div>
+          </div>
+        </div>
+        <div class="exchange-rate-item">
+          <h2 class="exchange-rate-item_title">Курс ЦБ РФ</h2>
+            <div class="first_currency">
+              <div class="currency">
+                <div class="currency_name">USD</div>
+                <div class="currency_value">73.8</div>
+                <div class="currency_value">72.91</div>
+              </div>
+              <div class="selling_buying">
+                <div class="selling">Продажа</div>
+                <div class="buying">Покупка</div>
+              </div>
+            </div>
+            <div class="second_currency">
+              <div class="currency">
+                <div class="currency_name">EUR</div>
+                <div class="currency_value">90</div>
+                <div class="currency_value">77.24</div>
+              </div>
+              <div class="selling_buying">
+                <div class="selling">Продажа</div>
+                <div class="buying">Покупка</div>
+              </div>
+            </div>
+        </div>
+        <div class="exchange-rate-item">
+          <h2 class="exchange-rate-item_title">Криптовалюты</h2>
+          <div class="first_currency">
+            
+            <div class="currency">
+              <div class="currency_name">BTC</div>
+              <div class="currency_value">50.649,0</div>
+            </div>
+            <div class="selling_buying">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWS -->
+  <div class="news">
+    <div class="inner_wrapper">
+      <h1 class="news_title">Статьи</h1>
+      <div class="swiper news-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="news-slide-wrapper">
+              <img src="img/news-img1.png" alt="">
+              <div class="date">03.09.2021</div>
+              <div class="news-link">
+                <a href="#">Курсы валют 8 сентября: рубль упал к доллару и евро</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="news-slide-wrapper">
+              <img src="img/news-img2.png" alt="">
+              <div class="date">24.08.2021</div>
+              <div class="news-link">
+                <a href="#">Почему опасна отмена штампов о браке и детях? К каким проблемам это может привести?</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="news-slide-wrapper">
+              <img src="img/news-img3.png" alt="">
+              <div class="date">17.08.2021</div>
+              <div class="news-link">
+                <a href="#">Где пенсионеру выгодно взять кредит в сентябре 2021 года</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="news-slide-wrapper">
+              <img src="img/news-img3.png" alt="">
+              <div class="date">17.08.2021</div>
+              <div class="news-link">
+                <a href="#">Где пенсионеру выгодно взять кредит в сентябре 2021 года</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="news-slide-wrapper">
+              <img src="img/news-img3.png" alt="">
+              <div class="date">17.08.2021</div>
+              <div class="news-link">
+                <a href="#">Где пенсионеру выгодно взять кредит в сентябре 2021 года</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news-pagination"><img src="img/pagination.svg" alt=""></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="more_news">
+        <a href="#" class="more">Все новости</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PARTNERS -->
+  <div class="partners">
+    <div class="inner_wrapper">
+      <h1 class="partners_title">Партнеры</h1>
+      <div class="tabs">
+        <div class="tabs_triggers">
+          <div id="banks-trigger" class="tabs_trigger-item">Банки</div>
+          <div id="mfks-trigger" class="tabs_trigger-item">МКФ</div>
+          <div class="long-sidebar"></div>
+          <div class="sidebar"></div>
+        </div>
+        <div class="tabs_content">
+          <div class="partners_list banks _visible" id="banks">
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank1.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank2.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank3.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank4.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank5.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank6.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank7.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank8.png" alt=""></a></div>
+          </div>
+          <div class="partners_list mfks" id="mfks">
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank3.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank2.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank3.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank6.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank4.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank6.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank7.png" alt=""></a></div>
+            <div class="partners_item"><a href="#" class="bank_img"><img src="img/bank1.png" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="more_partners">
+        <a href="#" class="more">Посмотреть все</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- INFO -->
+  <div class="info-section">
+    <div class="inner_wrapper">
+      <img class="logo" src="img/logo.png" alt="">
+      <div class="info_block">
+        <div class="info_text">Мы показываем все доступные вам предложения на одной странице, поэтому выбор лучшего из них — это вопрос нескольких минут. Вам не придётся часами сравнивать условия на сайтах банков или страховых компаний. <br> <br>
+          Мы переводим сложные банковские и страховые условия на бытовой язык и помогаем советом на каждом этапе. Вы сможете легко выбрать и оформить подходящую страховку или кредит, даже если делаете это в первый раз. <br> <br>
+          Мы получаем цены на полисы напрямую от страховых компаний, а условия по кредитам, вкладам и картам — от банков. Мы всегда показываем скрытые условия, а также честные рейтинги и отзывы реальных клиентов.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RATINGS -->
+  <div class="ratings">
+    <div class="ratings_wrapper">
+      <div class="left">
+        <h1 class="ratings_title">Рейтинги</h1>
+        <div class="ratings_text">Узнайте ключевые показатели по финансовой деятельности в данной отрасли</div>
+        <div class="more_ratings">
+          <a href="#" class="more">Перейти</a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="img/ratings_img.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- REVIEWS -->
+  <div class="reviews">
+    <div class="inner_wrapper">
+      <h1 class="reviews_title">Отзывы</h1>
+      <div class="swiper reviews-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="review-slide-wrapper">
+              <div class="slide-head">
+                <div class="date">03.09.2021</div>
+                <div class="name">Аркадий Сидоров</div>
+              </div>
+              <div class="slide-body">
+                <div class="title">Все устроило</div>
+                <div class="text">
+                  На покупку нового Рено Сандеро отцу не хватало около 500 тысяч. Кредит решено было брать в Экспобанке, потому что я свой брал там и меня все устроило. Отцу тоже без проблем дали нужную сумму на срок в 5 лет и с хорошим процентом. Удивлены, но менеджер не настаивал на... <a href="#" class="read_more">Открыть</a>
+                </div>
+              </div>
+              <div class="rating good-rating">
+                5 из 5
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-slide-wrapper">
+              <div class="slide-head">
+                <div class="date">27.08.2021</div>
+                <div class="name">Василий Мирошниченко</div>
+              </div>
+              <div class="slide-body">
+                <div class="title">Помощь получение кредита под залог квартиры</div>
+                <div class="text">
+                  Я сильно нуждался в деньгах, по рекомендациям из интернета обратился к вам, так как там много хороших отзывов. На самом деле я думал что это не правда, но надеялся на хороший результат. Так всё и вышло. Оформили мне кредит под... <a href="#" class="read_more">Открыть</a>
+                </div>
+              </div>
+              <div class="rating good-rating">
+                4 из 5
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-slide-wrapper">
+              <div class="slide-head">
+                <div class="date">22.08.2021</div>
+                <div class="name">Анонимно</div>
+              </div>
+              <div class="slide-body">
+                <div class="title">Сделала вклад</div>
+                <div class="text">
+                  Наконец-то сделал вклад, потому что больше месяца сомневалась правильно ли это, а потом еще неделю выбирала банк. СКБ обещает хороший процент и рейтинг у него неплохой, поэтому на нем и остановилась.
+                </div>
+                <a href="#" class="read_more">Открыть отзыв</a>
+              </div>
+              <div class="rating average-rating">
+                3 из 5
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="more_reviews">
+        <a href="#" class="more">Посмотреть все</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUESTIONS -->
+  <div class="questions">
+    <div class="inner_wrapper">
+      <h1 class="questions_title">популярные вопросы</h1>
+      <div class="questions_block">
+        <div class="questions_item">
+          <div class="title">Кредиты</div>
+          <ul class="questions_item-list">
+            <li><a href="#">Кредиты наличными</a></li>
+            <li><a href="#">Рефинансирование кредитов</a></li>
+            <li><a href="#">Кредиты на карту</a></li>
+            <li><a href="#">Кредиты под залог авто</a></li>
+            <li><a href="#">Кредиты под залог недвижимости</a></li>
+          </ul>
+        </div>
+        <div class="questions_item">
+          <div class="title">Дебетовые карты</div>
+          <ul class="questions_item-list">
+            <li><a href="#">Лучшие дебетовые карты</a></li>
+            <li><a href="#">Дебетовые карты с кэшбэком</a></li>
+            <li><a href="#">Дебетовые карты для ребенка</a></li>
+          </ul>
+        </div>
+        <div class="questions_item">
+          <div class="title">Ипотека</div>
+          <ul class="questions_item-list">
+            <li><a href="#">Ипотечный калькулятор</a></li>
+            <li><a href="#">ОСАГО онлайн</a></li>
+            <li><a href="#">КАСКО</a></li>
+            <li><a href="#">Страхование для путешественников</a></li>
+          </ul>
+        </div>
+        <div class="questions_item">
+          <div class="title">Микрозаймы</div>
+          <ul class="questions_item-list">
+            <li><a href="#">Займы на карту</a></li>
+            <li><a href="#">Займы без процентов</a></li>
+            <li><a href="#">Займы онлайн</a></li>
+            <li><a href="#">Займы без отказа</a></li>
+          </ul>
+        </div>
+        <div class="questions_item">
+          <div class="title">Страхование</div>
+          <ul class="questions_item-list">
+            <li><a href="#">Калькулятор ОСАГО</a></li>
+            <li><a href="#">КАСКО</a></li>
+            <li><a href="#">Страхование недвижимости</a></li>
+            <li><a href="#">Страхование от несчастных случаев</a></li>
+          </ul>
+        </div>
+        <div class="questions_item">
+          <div class="title">Кредитные карты</div>
+          <ul class="questions_item-list">
+            <li><a href="#">Лучшие кредитные карты</a></li>
+            <li><a href="#">Кредитные карты без отказа</a></li>
+            <li><a href="#">Карты рассрочки</a></li>
+            <li><a href="#">Виртуальные кредитные карты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner_wrapper">
+      <img class="logo" src="img/logo.png" alt="">
+      <ul class="info-list">
+        <li><a href="domen2.ru/o-proekte">О проекте</a></li>
+        <li><a href="domen2.ru/add-organization">Добавить организацию</a></li>
+        <li><a href="domen2.ru/contacts">Контакты</a></li>
+        <li><a href="domen2.ru/sitemap">Карта сайта</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- POPUP FORM -->
+  <div id="popup" class="popup">
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="#" class="popup_close">✖</a>
+        <div class="popup_content-wrapper">
+          <div class="popup_right-content">
+            <form action="" class="popup_form" id="popup_form">
+              <label for="">Пожалуйта, заполните поля</label>
+              <input placeholder="ФИО" type="text" name="" id="">
+              <input placeholder="E-mail" id="email" name="email" type="email">
+              <textarea placeholder="Ваш комментарий" name="" id="" cols="30" rows="10"></textarea>
+              <input value="Отправить" class="send_form" type="submit" class=""></input>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/swiper.min.js"></script>
+  <!-- <script src="js/libs.min.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+</html>

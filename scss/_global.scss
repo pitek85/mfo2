@@ -1,0 +1,125 @@
+// COMMON
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 180%;
+  background-color: $bg-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 145%;
+  text-align: center;
+  text-transform: uppercase;
+  color: $main-color;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 145%;
+  text-transform: uppercase;
+  color: $main-color;
+}
+
+div {
+  color: $main-text-color;
+}
+
+a {
+  color: $secondary-color;
+}
+
+.inner_wrapper {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+@media (max-width: 1316px) {
+
+}
+
+a[class^="more"] {
+  font-weight: 600;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+a[class^="more"]:hover {
+  color: #2f7272;
+}
+
+.more {
+  &_categories,
+  &_offers,
+  &_partners,
+  &_news,
+  &_ratings,
+  &_reviews {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 1316px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .inner_wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 1920px;
+  }
+
+  .more {
+    &_ratings {
+      margin-bottom: 60px;
+    }
+
+    &_categories,
+    &_offers,
+    &_partners,
+    &_news,
+    &_reviews {
+      margin-bottom: 70px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-max-xs) {
+  .more {
+    &_categories,
+    &_offers,
+    &_partners,
+    &_news,
+    &_reviews,
+    &_ratings {
+      margin-bottom: 50px;
+    }
+  }
+}
